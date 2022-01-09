@@ -1,0 +1,43 @@
+/* https://google-webfonts-helper.herokuapp.com/fonts */
+
+/* roboto-mono-regular - latin */
+@font-face {
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../public/fonts/roboto-mono-v13-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../public/fonts/roboto-mono-v13-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../public/fonts/roboto-mono-v13-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../public/fonts/roboto-mono-v13-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../public/fonts/roboto-mono-v13-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../public/fonts/roboto-mono-v13-latin-regular.svg#RobotoMono') format('svg'); /* Legacy iOS */
+  }
+  
+/* roboto-regular - latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../public/fonts/roboto-v29-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../public/fonts/roboto-v29-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../public/fonts/roboto-v29-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../public/fonts/roboto-v29-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../public/fonts/roboto-v29-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../public/fonts/roboto-v29-latin-regular.svg#Roboto') format('svg'); /* Legacy iOS */
+  }
+  
+/* quicksand-regular - latin */
+@font-face {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../public/fonts/quicksand-v24-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../public/fonts/quicksand-v24-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../public/fonts/quicksand-v24-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../public/fonts/quicksand-v24-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../public/fonts/quicksand-v24-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../public/fonts/quicksand-v24-latin-regular.svg#Quicksand') format('svg'); /* Legacy iOS */
+}
