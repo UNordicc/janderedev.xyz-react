@@ -3,6 +3,10 @@
   --secondary-bg: #232323;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   font-family: 'Roboto',  sans-serif;

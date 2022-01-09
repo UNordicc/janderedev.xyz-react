@@ -7,7 +7,13 @@ const Texts: string[] = [
     'jan://',
     './jan',
     '/usr/bin/jan',
+    '/usr/lib/libjan-0.so.14',
+    'https://rvlt.gg/jan',
 ];
+
+const HrefOverrides: { [key: number]: string } = {
+    5: 'https://rvlt.gg/jan',
+}
 
 const randomText = (excludeNum?: number): number => {
     if (excludeNum === undefined || Texts.length === 1) return Math.floor(Math.random() * Texts.length);
@@ -30,11 +36,11 @@ const NavbarText: FunctionComponent = () => {
         if (text.length < Texts[selectedText].length) {
             setText(text + Texts[selectedText].charAt(text.length));
         }
-        
+
         if (timer % 5 === 0) {
             setUnderscore(!underscore);
         }
-        
+
         if (timer >= 80) {
             if (text.length > 0) {
                 setText(text.substring(0, text.length - 1));
@@ -57,7 +63,7 @@ const NavbarText: FunctionComponent = () => {
 
     return (
         <div>
-            <span className='navbar-text' onClick={() => window.location.href = '/'}>
+            <span className='navbar-text' onClick={() => window.location.href = HrefOverrides[selectedText] || '/'}>
                 {'> '}{text}{underscore ? '_' : ''}
             </span>
         </div>
