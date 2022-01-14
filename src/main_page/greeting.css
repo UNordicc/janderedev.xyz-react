@@ -1,0 +1,64 @@
+.greeting-area {
+    width: 100%;
+    height: 100vh;
+}
+
+.greeting-welcome {
+    position: absolute;
+    width: 200px;
+    left: 20vw;
+    top: calc(50% - 2vw);
+    transform: translateY(-50%);
+    justify-content: center;
+}
+
+.greeting-welcome span {
+    font-size: 50px;
+    break-after: always;
+}
+
+.greeting-welcome .main-text {
+    font-weight: 100;
+}
+
+.greeting-welcome .sub-text {
+    font-weight: 300;
+}
+
+.greeting-socials {
+    position: absolute;
+    width: 300px;
+    right: 15vw;
+    top: calc(50% - 2vw);
+    transform: translateY(-50%);
+    justify-content: center;
+}
+
+.greeting-socials-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-bottom: 8px;
+}
+
+.greeting-socials-image {
+    width: 24px;
+    height: 24px;
+    padding-right: 12px;
+}
+
+.greeting-socials-text {
+    font-size: 20px;
+    transition: color .2s;
+}
+
+.greeting-socials-text:visited,
+.greeting-socials-text:link {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.greeting-socials-text:hover {
+    color: #dddddd;
+    text-decoration: underline;
+}

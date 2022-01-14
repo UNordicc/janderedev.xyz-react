@@ -23,9 +23,9 @@ const Navbar: FunctionComponent = () => {
         <div className={`navbar ${hidden ? 'navbar-collapsed' : ''}`}>
             <NavbarText />
             <div className='navbar-link-container'>
-                <NavbarLink text='sussy' link='#test1'/>
+                <NavbarLink text='Link 1' link='#test1'/>
                 <NavbarLinkDivider />
-                <NavbarLink text='amogus' link='#test2'/>
+                <NavbarLink text='Link 2' link='#test2'/>
             </div>
         </div>
     )
