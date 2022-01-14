@@ -24,6 +24,7 @@ const SocialsEntry: FunctionComponent<Params> = (params: Params) => {
             <img className="greeting-socials-image" src={params.image} />
             <a
                 href={href}
+                target={"_blank"}
                 className={`greeting-socials-text`}
                 onClick={params.redactUntilClick ? (event) => {
                     if (!allowClick) event.preventDefault();
