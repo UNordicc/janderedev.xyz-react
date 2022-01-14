@@ -14,7 +14,11 @@ const ScrollHint: FunctionComponent = () => {
         <div className="scroll-hint-container">
             <span className={`${textHidden ? 'hidden' : ''}`}>Scroll down</span>
             <br/>
-            <img src="/assets/pointer_down.svg" className={`${arrowHidden ? 'hidden' : ''}`} />
+            <img
+                src="/assets/pointer_down.svg"
+                className={`${arrowHidden ? 'hidden' : ''}`}
+                onClick={() => window.scroll({ behavior: 'smooth', top: window.innerHeight })}
+            />
         </div>
     );
 }
