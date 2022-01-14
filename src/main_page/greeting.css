@@ -1,3 +1,28 @@
+@keyframes scroll-hint-arrow {
+    0% {
+        transform: translateY(-50%);
+        opacity: 0;
+    }
+    40% {
+        opacity: 1;
+    }
+    50% {
+        transform: translateY(10%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes scroll-hint-text {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
 .greeting-area {
     width: 100%;
     height: 100vh;
@@ -39,6 +64,12 @@
     align-items: flex-start;
     justify-content: flex-start;
     padding-bottom: 8px;
+    opacity: 1;
+    transition: opacity .5s;
+}
+
+.greeting-socials-container.hidden {
+    opacity: 0;
 }
 
 .greeting-socials-image {
@@ -61,4 +92,35 @@
 .greeting-socials-text:hover {
     color: #dddddd;
     text-decoration: underline;
+}
+
+.scroll-hint-container {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 5%;
+    text-align: center;
+}
+
+.scroll-hint-container img {
+    position: relative;
+    height: 30px;
+    animation-name: scroll-hint-arrow;
+    animation-duration: 5s;
+    animation-direction: normal;
+}
+
+.scroll-hint-container img.hidden, .scroll-hint-container span.hidden {
+    display: none;
+}
+
+.scroll-hint-container span {
+    position: relative;
+    animation-name: scroll-hint-text;
+    animation-duration: 5s;
+    animation-direction: normal;
+    bottom: 20px;
+    text-align: center;
+    font-weight: 300;
+    font-size: 18px;
 }
