@@ -7,8 +7,10 @@ import ScrollHint from './ScrollHint';
 const Greeting: FunctionComponent = () => {
     return (
         <div className="greeting-area">
-            <WelcomeText />
-            <Socials />
+            <div className="greeting-flex-container">
+                <WelcomeText />
+                <Socials />
+            </div>
             <ScrollHint />
         </div>
     );

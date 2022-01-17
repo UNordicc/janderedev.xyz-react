@@ -35,6 +35,7 @@
     cursor: pointer;
     float: left;
     transition: text-shadow 0.3s, font-size 0.2s;
+    text-overflow: ellipsis;
 }
 
 .navbar-link-text {
@@ -50,6 +51,7 @@
     user-select: none;
     cursor: pointer;
     transition: text-shadow 0.3s, font-size .2s, opacity .5s, top .2s, right .2s;
+    white-space: nowrap;
 }
 
 .navbar-link-container {
@@ -61,4 +63,39 @@
 
 .navbar-collapsed .navbar-link-container {
     opacity: .7;
+}
+
+@media (max-width: 800px) {
+    .navbar-text, .navbar-link-text {
+        font-size: 16px;
+    }
+
+    .navbar-link-text {
+        top: 8px;
+    }
+}
+
+@media (max-width: 450px) {
+    .navbar-text, .navbar-link-text {
+        font-size: 12px;
+    }
+
+    .navbar-link-text {
+        top: 6px;
+    }
+}
+
+@media (max-width: 360px) {
+    .navbar-text {
+        display: none;
+    }
+
+    .navbar-link-container {
+        display: flex;
+        float: none;
+    }
+
+    .navbar-link-divider {
+        display: none;
+    }
 }

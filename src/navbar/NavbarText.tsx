@@ -8,7 +8,6 @@ const Texts: string[] = [
     'jan://',
     './jan',
     '/usr/bin/jan',
-    '/usr/lib/libjan-0.so.14',
     'https://rvlt.gg/jan',
     'pacman -Syu jan',
 ];
