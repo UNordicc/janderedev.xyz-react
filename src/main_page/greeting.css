@@ -83,15 +83,9 @@
     transition: color .2s;
 }
 
-.greeting-socials-text:visited,
-.greeting-socials-text:link {
-    color: #ffffff;
-    text-decoration: none;
-}
-
 .greeting-socials-text:hover {
-    color: #dddddd;
     text-decoration: underline;
+    color: #dddddd;
 }
 
 .scroll-hint-container {

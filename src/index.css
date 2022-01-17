@@ -24,3 +24,10 @@ code {
 span, p, h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
+
+.no-link-effect:visited,
+.no-link-effect:link,
+.no-link-effect:hover {
+    color: #ffffff;
+    text-decoration: none;
+}

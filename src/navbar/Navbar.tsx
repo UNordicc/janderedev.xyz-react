@@ -23,9 +23,11 @@ const Navbar: FunctionComponent = () => {
         <div className={`navbar ${hidden ? 'navbar-collapsed' : ''}`}>
             <NavbarText />
             <div className='navbar-link-container'>
-                <NavbarLink text='Link 1' link='#test1'/>
+                <NavbarLink text='rolt' link='https://rvlt.gg/jan' external/>
                 <NavbarLinkDivider />
-                <NavbarLink text='Link 2' link='#test2'/>
+                <NavbarLink text='Cum' link='/cum'/>
+                <NavbarLinkDivider />
+                <NavbarLink text='Home' link='/'/>
             </div>
         </div>
     )

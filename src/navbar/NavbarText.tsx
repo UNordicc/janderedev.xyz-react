@@ -1,5 +1,6 @@
 import { FunctionComponent, useCallback } from 'react';
 import { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import './navbar.css';
 
 const Texts: string[] = [
@@ -9,11 +10,8 @@ const Texts: string[] = [
     '/usr/bin/jan',
     '/usr/lib/libjan-0.so.14',
     'https://rvlt.gg/jan',
+    'pacman -Syu jan',
 ];
-
-const HrefOverrides: { [key: number]: string } = {
-    5: 'https://rvlt.gg/jan',
-}
 
 const randomText = (excludeNum?: number): number => {
     if (excludeNum === undefined || Texts.length === 1) return Math.floor(Math.random() * Texts.length);
@@ -63,9 +61,9 @@ const NavbarText: FunctionComponent = () => {
 
     return (
         <div>
-            <span className='navbar-text' onClick={() => window.location.href = HrefOverrides[selectedText] || '/'}>
+            <Link className='navbar-text no-link-effect' to="/">
                 {'> '}{text}{underscore ? '_' : ''}
-            </span>
+            </Link>
         </div>
     );
 }

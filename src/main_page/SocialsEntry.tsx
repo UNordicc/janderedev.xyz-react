@@ -25,7 +25,7 @@ const SocialsEntry: FunctionComponent<Params> = (params: Params) => {
             <a
                 href={href}
                 target={"_blank"}
-                className={`greeting-socials-text`}
+                className={`greeting-socials-text no-link-effect`}
                 onClick={params.redactUntilClick ? (event) => {
                     if (!allowClick) event.preventDefault();
                     setAllowClick(true);
