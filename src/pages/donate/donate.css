@@ -47,8 +47,22 @@
 
 .crypto-address-part {
     width: calc(100% - 12px);
-    overflow: scroll;
+    overflow: auto;
     white-space: nowrap;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(90, 90, 90);
+    border-radius: 5px;
+}
+  
+::-webkit-scrollbar-track {
+    background: var(--primary-bg);
 }
 
 .crypto-container code {
