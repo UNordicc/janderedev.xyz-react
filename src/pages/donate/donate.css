@@ -1,0 +1,82 @@
+.donate-container {
+    margin-left: 12px;
+}
+
+.donate-header {
+    font-family: 'Quicksand';
+    opacity: .9;
+}
+
+.donate-text {
+    position: relative;
+    margin-bottom: 24px;
+    max-width: 700px;
+
+}
+@media (max-width: 720px) {
+    .donate-text {
+        max-width: 95%;
+        left: calc(50% - 6px);
+        transform: translateX(-50%);
+        text-align: justify;
+    }
+}
+
+.crypto-container {
+    display: flex;
+    align-items: center;
+}
+
+.crypto-container-outer {
+    margin-bottom: 20px;
+}
+
+.crypto-container .currency-img {
+    transition: transform .2s;
+    height: 32px;
+}
+
+.crypto-container .currency-img:hover {
+    transform: scale(1.1);
+}
+
+.crypto-container code, .crypto-address {
+    font-size: 16px;
+    color: #dddddd;
+}
+
+.crypto-address-part {
+    width: calc(100% - 12px);
+    overflow: scroll;
+    white-space: nowrap;
+}
+
+.crypto-container code {
+    font-size: 24px;
+    transform: translateY(-2px);
+    padding-left: 8px;
+}
+
+.crypto-address-collapsed:hover {
+    color: #ffffff;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.copy-button {
+    position: relative;
+    top: 4px;
+    padding-left: 8px;
+    height: 22px;
+    opacity: .7;
+    transition: opacity .1s, transform .1s;
+}
+
+.copy-button-effects:hover {
+    opacity: .9;
+    transform: scale(1.05);
+}
+
+.copy-button-effects:active {
+    transform: scale(1.15);
+}

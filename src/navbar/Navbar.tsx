@@ -25,7 +25,7 @@ const Navbar: FunctionComponent = () => {
             <div className='navbar-link-container'>
                 <NavbarLink text='Home' link='/'/>
                 <NavbarLinkDivider />
-                <NavbarLink text='Test Page' link='/cum'/>
+                <NavbarLink text='Donate' link='/donate'/>
                 <NavbarLinkDivider />
                 <NavbarLink text='Revolt' link='https://rvlt.gg/jan' external/>
             </div>
