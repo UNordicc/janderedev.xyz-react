@@ -66,6 +66,7 @@
     padding-bottom: 8px;
     opacity: 1;
     transition: opacity .5s;
+    min-width: 250px;
 }
 
 .greeting-socials-container.hidden {
