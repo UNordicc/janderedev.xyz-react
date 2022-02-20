@@ -19,6 +19,10 @@ const index: FunctionComponent = () => {
                 one of my projects or just because you're a cool person, I can only accept
                 crypto for legal and privacy reasons.
                 <p>Thank you!</p>
+                <p>
+                    If your XMR or BTC wallet supports OpenAlias, you can
+                    put <code>janderedev.xyz</code> instead of copypasting the address.
+                </p>
             </p>
             <CryptoField name="Monero" image="/assets/monero.png" address={ADDRESSES.xmr} />
             <CryptoField name="Bitcoin" image="/assets/bitcoin.png" address={ADDRESSES.btc} />
