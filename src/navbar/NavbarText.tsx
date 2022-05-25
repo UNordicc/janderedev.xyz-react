@@ -10,6 +10,8 @@ const Texts: string[] = [
     '/usr/bin/jan',
     'https://rvlt.gg/jan',
     'pacman -Syu jan',
+    'cargo install jan',
+    'yarn add jan',
 ];
 
 const randomText = (excludeNum?: number): number => {
