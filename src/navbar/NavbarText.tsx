@@ -4,14 +4,13 @@ import { Link } from 'react-router-dom';
 import './navbar.css';
 
 const Texts: string[] = [
-    '~/jan.sh',
-    'jan://',
-    './jan',
-    '/usr/bin/jan',
-    'https://rvlt.gg/jan',
-    'pacman -Syu jan',
-    'cargo install jan',
-    'yarn add jan',
+    '~/unordic.sh',
+    'unordic://',
+    './unordic',
+    '/usr/bin/unordic',
+    'pacman -Syu unordic',
+    'dnf install unordic',
+    '',
 ];
 
 const randomText = (excludeNum?: number): number => {
