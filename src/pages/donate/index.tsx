@@ -18,7 +18,7 @@ const index: FunctionComponent = () => {
             </p>
             <CryptoField name="Monero" image="/assets/monero.png" address={ADDRESSES.xmr} />
             <CryptoField name="Bitcoin" image="/assets/bitcoin.png" address={ADDRESSES.btc} />
-            <CryptoField name="ETH/USDT/USDC image="/assets/ethereum.png" address={ADDRESSES.eth} />
+            <CryptoField name="ETH/USDT/USDC" image="/assets/ethereum.png" address={ADDRESSES.eth} />
         </div>
     );
 }
