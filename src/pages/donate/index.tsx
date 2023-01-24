@@ -14,7 +14,7 @@ const index: FunctionComponent = () => {
             <div style={{ width: "100%", height: "48px" }} />
             <h1 className="donate-header">Want to send me money for some reason?</h1>
             <p className="donate-text">
-                You can donate me via crypto. &gt I use these to donate
+                Copy one of these addresses and send amount of money you want!
             </p>
             <CryptoField name="Monero" image="/assets/monero.png" address={ADDRESSES.xmr} />
             <CryptoField name="Bitcoin" image="/assets/bitcoin.png" address={ADDRESSES.btc} />
