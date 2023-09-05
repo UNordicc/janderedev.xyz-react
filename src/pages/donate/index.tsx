@@ -16,7 +16,7 @@ const index: FunctionComponent = () => {
             <p className="donate-text">
                 Copy one of these addresses and send amount of money you want!
                 If I don't support your favorite crypto or payment method, use <a href="https://agoradesk.com/">AgoraDesk</a> or <a href="https://localmonero.co/">LocalMonero</a> and buy there cryptocurrency without KYC.
-                For PLN use <a href="https://coinget.pl/">coinGet</a>.
+                For PLN use <a href="https://coinget.pl/">coinGet</a>
             </p>
             <CryptoField name="Monero" image="/assets/monero.png" address={ADDRESSES.xmr} />
             <CryptoField name="Bitcoin" image="/assets/bitcoin.png" address={ADDRESSES.btc} />
