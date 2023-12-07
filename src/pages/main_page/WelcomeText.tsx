@@ -18,7 +18,7 @@ const WelcomeText: FunctionComponent = () => {
                 }}
             />
             <img
-                src="/assets/fedora.png"
+                src="/assets/firefox.png"
                 style={{
                     position: "relative",
                     left: "50%",
