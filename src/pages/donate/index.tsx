@@ -15,7 +15,7 @@ const index: FunctionComponent = () => {
             <h1 className="donate-header">Want to send me money for some reason?</h1>
             <p className="donate-text">
                 Copy one of these addresses and send amount of money you want!
-                If I don't support your favorite crypto or payment method, use <a href="https://agoradesk.com/">AgoraDesk</a> or <a href="https://localmonero.co/">LocalMonero</a> and buy there cryptocurrency without KYC.
+                If I don't support your favorite crypto or payment method, use <a href="https://bisq.network/">Bisq</a>, <a href="https://dex.robosats.com/">Robosats</a> or <a href="https://haveno.exchange/">Haveno</a> and buy there cryptocurrency without KYC.
                 For PLN use <a href="https://coinget.pl/">coinGet</a>
             </p>
             <CryptoField name="Monero" image="/assets/monero.png" address={ADDRESSES.xmr} />
