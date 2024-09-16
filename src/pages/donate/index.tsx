@@ -6,6 +6,7 @@ const ADDRESSES = {
     xmr: "4BBEM3MHtFfPAVwgQ5CRJiFdp2zVbF6aL3RKX1w6RnfjbW3L3RFaknc9bbnGrAFAZG2N6XpsGwpMn9yajG1mDfkr6X7MUgD",
     btc: "33dc7D5xgoF9fSXoWwwf7phoSkNMw6WExR",
     eth: "0xd68e47e7593902fDfAa77E650fEcbB133369058F",
+    ltc: "ltc1qq5v0mwt8yu789n20ltf6sz5s83se0ycfw6c4we",
 }
 
 const index: FunctionComponent = () => {
@@ -20,6 +21,7 @@ const index: FunctionComponent = () => {
             </p>
             <CryptoField name="Monero" image="/assets/monero.png" address={ADDRESSES.xmr} />
             <CryptoField name="Bitcoin" image="/assets/bitcoin.png" address={ADDRESSES.btc} />
+            <CryptoField name="Litecoin" image="/assets/litecoin.png" address={ADDRESSES.ltc} />
             <CryptoField name="ETH/USDT/USDC" image="/assets/ethereum.png" address={ADDRESSES.eth} />
         </div>
     );
