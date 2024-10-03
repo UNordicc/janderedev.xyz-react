@@ -15,7 +15,9 @@ const index: FunctionComponent = () => {
                     top: "20%",
                 }}
             />
-          <a href="https://www.last.fm/user/UNordic"><img src="https://lastfm-recently-played.vercel.app/api?user=UNordic" right: "35%" top: "20%" width="350px"/></a>
+            <a href="https://www.last.fm/user/UNordic">
+              <img src="https://lastfm-recently-played.vercel.app/api?user=UNordic" alt="Recently Played" height="auto" width="350px" />
+            </a>
         </div>
     </>
   );
