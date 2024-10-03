@@ -10,11 +10,12 @@ const index: FunctionComponent = () => {
                 src="https://lanyard.cnrad.dev/api/265102629082890240"
                 style={{
                     position: "relative",
-                    left: "50%",
+                    left: "35%",
                     transform: "translateX(-50%)",
                     top: "20%",
                 }}
             />
+          <a href="https://www.last.fm/user/YOURUSERNAME"><img src="https://lastfm-recently-played.vercel.app/api?user=YOURUSERNAME" right: "35%" top: "20%" width="350px"/></a>
         </div>
     </>
   );
