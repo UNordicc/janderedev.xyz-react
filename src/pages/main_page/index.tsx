@@ -5,11 +5,11 @@ const index: FunctionComponent = () => {
   return (
     <>
         <Greeting />
-        <div style={{ height: "100vh", display: "flex", justifyContent: "center", alignItems: "center" }}>
+        <div style={{ height: "100vh", display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center" }}>
             <img
                 src="https://lanyard.cnrad.dev/api/265102629082890240"
                 style={{
-                    marginRight: "20px",
+                    marginBottom: "20px",
                 }}
             />
             <a href="https://www.last.fm/user/UNordic">
