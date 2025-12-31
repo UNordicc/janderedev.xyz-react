@@ -18,6 +18,18 @@ const index: FunctionComponent = () => {
                 If I don't support your favorite crypto or payment method, use <a href="https://bisq.network/">Bisq</a>, <a href="https://dex.robosats.com/">Robosats</a> or <a href="https://haveno.exchange/">Haveno</a> and buy there cryptocurrency without KYC.
                 For PLN use <a href="https://coinget.pl/">coinGet</a> or <a href="https://coincher.com">coincher</a>
             </p>
+
+            <div className="crypto-container-outer">
+                <div className="crypto-container">
+                    <div style={{ width: "32px", height: "32px" }} />
+                    <code>Debit/Credit Card, BLIK</code>
+                </div>
+                <div className="crypto-address-part">
+                    <a href="https://suppi.pl/unordic" target="_blank" rel="noreferrer" className="crypto-address crypto-address-collapsed" style={{ paddingLeft: "8px", textDecoration: "none" }}>
+                        https://suppi.pl/unordic
+                    </a>
+                </div>
+            </div>
             <CryptoField name="Bitcoin" image="/assets/bitcoin.png" address={ADDRESSES.btc} />
             <CryptoField name="Litecoin" image="/assets/litecoin.png" address={ADDRESSES.ltc} />
             <CryptoField name="ETH/USDT/USDC" image="/assets/ethereum.png" address={ADDRESSES.eth} />
