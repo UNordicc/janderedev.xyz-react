@@ -16,12 +16,11 @@ const index: FunctionComponent = () => {
             <p className="donate-text">
                 Copy one of these addresses and send amount of money you want!
                 If I don't support your favorite crypto or payment method, use <a href="https://bisq.network/">Bisq</a>, <a href="https://dex.robosats.com/">Robosats</a> or <a href="https://haveno.exchange/">Haveno</a> and buy there cryptocurrency without KYC.
-                For PLN use <a href="https://coinget.pl/">coinGet</a> or <a href="https://coincher.com">coincher</a>
             </p>
 
             <div className="crypto-container-outer">
                 <div className="crypto-container">
-                    <div style={{ width: "32px", height: "32px" }} />
+                    <div style={{ width: "32px", justifyContent: "center", display: "flex", fontSize: "24px" }}>💳</div>
                     <code>Debit/Credit Card, BLIK</code>
                 </div>
                 <div className="crypto-address-part">
